@@ -1,0 +1,739 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Oswald:wght@200..700&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+body{
+    font-family: 'Noto Sans', sans-serif;
+}
+.fondo{
+    width: 100%;
+    background-image: url("/assets/images/images/Fondo.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+header {
+  width: 100%;
+    padding: 20px 5%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: rgba(0,0,0,0.3);
+}
+
+header h1 {
+    font-size: 26px;
+    font-weight: 700;
+    color: white;
+}
+
+header h1 .logo {
+    color: #33b5e5; 
+}
+
+nav ul {
+    display: flex;
+    gap: 40px;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    color: white;
+    font-size: 14px;
+    font-weight: 600px;
+    text-transform: uppercase;
+    padding: 6px 14px;
+    cursor: pointer;
+    transition: 0.5s ease;
+}
+
+nav ul li:hover {
+    border: 2px solid #33b5e5;
+    border-radius: 4px;
+}
+.parte1 {
+    width: 100%;
+    padding: 100px 5%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    padding-right: 300px;
+    padding-top: 150px;
+    height: 600px;
+}
+
+.parte1 p {
+    color: white;
+    font-size: 32px;
+    font-weight: 300px;
+    background: rgba(0,0,0,0.3);
+    padding: 15px 25px;
+}
+
+.parte2 {
+    width: 100%;
+    background-color: #43b5e5;
+    padding: 70px 5%;
+
+    display: flex;
+    justify-content: center; 
+}
+
+.parte2 > div {
+    display: flex;
+    justify-content: center; 
+    align-items: flex-start;
+    width: 70%; 
+    gap: 40px;  
+}
+
+.parte2 div > div {
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.parte2 img {
+    width: 45px;
+    margin-bottom: 15px;
+}
+
+.parte2 h3 {
+    font-size: 16px;
+    color: white;
+    margin-bottom: 10px;
+}
+
+.parte2 p {
+    font-size: 12px;
+    line-height: 18px;
+    color: white;
+}
+.coffee img{
+    height: 45px;
+}
+
+.parte3 {
+    width: 100%;
+    padding: 60px 0%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.portafolio {
+    width: 80%;
+    display: flex;
+    justify-content: space-between;  
+    align-items: flex-end;
+}
+.titulo3 {
+    display: flex;
+    flex-direction: column;
+    flex-shrink: 0; 
+}
+
+.titulo3 h2 {
+    font-size: 28px;
+    letter-spacing: 2px;
+    color: #5a6b77;
+    font-weight: 300;
+}
+
+.titulo3 hr {
+    width: 40px;
+    height: 2px;
+    background-color: #7da0bc;
+    border: none;
+    margin-top: 8px;
+}
+
+
+.navparte3 {
+    margin: 0;
+}
+
+
+.navparte3 ul {
+    display: flex;
+    gap: 40px;
+    list-style: none;
+    padding: 0;
+}
+
+.navparte3 li {
+    font-size: 14px;
+    letter-spacing: 1px;
+    color: #6a7a89;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+.navparte3 li:hover {
+    padding: 6px 14px;
+    border: 1px solid #5ab4f5;
+    color: #5ab4f5;
+    border-radius: 4px;
+}
+
+
+.parte3grid {
+    width: 80%;
+    margin-top: 40px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 30px;
+}
+
+.parte3grid img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.parte4 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;  
+    gap: 40px;
+    padding: 60px 120px;
+    background-color: #4d555a;
+}
+
+.parte4texto {
+    width: 50%;
+    color: #fff;
+}
+
+.parte4texto h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+.parte4texto p {
+    margin-bottom: 15px;
+    line-height: 1.6;
+}
+
+.parte4texto button {
+    padding: 10px 25px;
+    border: 1px solid #332f2f;
+    background: transparent;
+    color: #332f2f;
+    cursor: pointer;
+}
+
+.parte4img {
+    width: 50%;
+}
+
+.parte4img img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+.parte5 {
+    background: #4cc4ff;      
+    padding: 60px 120px;
+    color: white;
+}
+
+.parte5 .h2eimg {
+    display: flex;
+    justify-content: space-between;   
+    align-items: center;
+}
+
+.parte5 h2 {
+    font-size: 26px;
+    font-weight: 300;
+    margin: 0;
+    letter-spacing: 1px;
+}
+.parte5 hr {
+    width: 40px;
+    height: 2px;
+    background-color: white;
+    border: none;
+    margin: 10px 0 20px 0;   
+}
+
+.parte5 img {
+    width: 28px;  
+    height: auto;
+}
+
+.parte5 p {
+    max-width: 900px;
+    margin-top: 20px;
+    line-height: 1.8;
+    font-size: 18px;
+}
+
+.parte5 .arroba {
+    font-weight: bold;
+}
+
+.parte6 {
+    width: 100%;
+    padding: 80px 10%;
+    background-image: url("/assets/images/images/bg_whoIs.png"); 
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 5%;
+
+    position: relative;
+}
+
+
+.parte6 .izquierda,
+.parte6 .derecha {
+    position: relative; 
+    width: 45%;
+    color: #ffffff;
+}
+
+.parte6 .izquierda h2 {
+    font-size: 28px;
+    letter-spacing: 2px;
+    font-weight: 400;
+    margin-bottom: 10px;
+}
+.parte6 hr {
+    
+    width: 40px;
+    height: 2px;
+    background-color: white;
+    border: none;
+    margin: 10px 0 20px 0;   
+}
+
+.parte6 p {
+    font-size: 14px;
+    line-height: 22px;
+    margin-bottom: 20px;
+    color: #e8e8e8;
+}
+
+
+.redes {
+    display: flex;
+    gap: 15px;
+    margin-top: 20px;
+}
+
+.redes img {
+    width: 68px;
+    height: 68px;
+    padding: 10px;
+    border: 2px solid #ffffff;
+    cursor: pointer;
+    transition: 0.3s;
+}
+.parte7 {
+    width: 100%;
+    padding: 80px 12%;
+    background-color: #ffffff;
+
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+
+.parte7 .fila-titulo {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.parte7 h2 {
+    font-size: 20px;
+    color: #606d75;
+    letter-spacing: 2px;
+    font-weight: 400;
+
+    display: flex;
+    flex-direction: column;
+    width: fit-content;
+}
+
+
+.parte7 h2::after {
+    content: "";
+    width: 40px;
+    height: 2px;
+    background-color: #606d75;
+    margin-top: 8px;
+}
+
+
+.parte7 .cita span {
+    font-size: 50px;
+    color: #606d75;
+}
+
+
+.parte7 p {
+    width: 70%;
+    font-size: 18px;
+    color: #7a8790;
+    line-height: 30px;
+}
+
+
+.parte7 .walter {
+    font-size: 15px;
+    font-weight: bold;
+    color: #3ca4ff;
+}
+
+ .parte8 {
+    width: 100%;
+    padding: 80px 10%;
+    background-image: url("/assets/images/images/bg_contact.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    display: flex;
+    justify-content: space-between;
+    gap: 5%;
+}
+
+
+.contenidoformulario {
+    width: 55%;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.contenidoformulario h2 {
+    font-size: 22px;
+    color: #ffffff;
+    letter-spacing: 2px;
+    font-weight: 400;
+    display: flex;
+    flex-direction: column;
+}
+
+.contenidoformulario h2::after {
+    content: "";
+    width: 40px;
+    height: 2px;
+    background-color: #ffffff;
+    margin-top: 8px;
+}
+
+
+.contenidoformulario form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.contenidoformulario label {
+    color: #ffffff;
+    font-size: 12px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.contenidoformulario input {
+    width: 80%;
+    height: 45px;
+    background-color: transparent;
+    border: 2px solid #ffffff;
+    color: #ffffff;
+    padding-left: 10px;
+    font-size: 14px;
+}
+
+
+.contenidoformulario textarea {
+    width: 100%;
+    height: 200px;
+    background-color: transparent;
+    border: 2px solid #ffffff;
+    color: #ffffff;
+    padding: 10px;
+    font-size: 14px;
+    resize: none; 
+}
+
+
+.contenidoformulario button {
+    width: 180px;
+    height: 50px;
+    background-color: #4fc3ff;
+    border: none;
+    color: #ffffff;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+
+.contenidotexto {
+    width: 45%;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin-top: 80px; 
+}
+
+.contenidotexto p {
+    color: #ffffff;
+    font-size: 14px;
+    line-height: 22px;
+}
+footer {
+    width: 100%;
+    background-color: #2f3840;
+    padding: 40px 8%;
+}
+
+.contenedorfoot {
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+}
+
+.navfoot {
+    list-style: none;
+    display: flex;
+    gap: 25px;
+}
+
+.navfoot li {
+    color: #778089;
+    text-transform: uppercase;
+    font-size: 13px;
+    letter-spacing: 1px;
+    cursor: pointer;
+}
+
+.alone {
+    color: #6d767e;
+    font-size: 13px;
+    letter-spacing: 1px;
+}
+
+
+@media (max-width: 920px){
+nav ul {
+    gap: 20px;
+}
+.navparte3 ul {
+    gap: 5px;
+}
+}
+@media(max-width: 768px) {
+
+    header {
+        padding: 20px 5%;
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    nav ul {
+        gap: 10px;
+    }
+
+    .parte1 {
+        padding-right: 0;
+        height: auto;
+        text-align: center;
+    }
+
+    .parte2 > div {
+        width: 100%;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 30px;
+    }
+
+    .parte2 div > div {
+        width: 40%;
+    }
+
+    .parte3grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .navparte3 ul{
+        display: none;
+    }
+
+    .parte4 {
+        flex-direction: column;
+        padding: 40px 5%;
+        text-align: center;
+    }
+
+    .parte4texto,
+    .parte4img {
+        width: 100%;
+    }
+
+    .parte5 {
+        padding: 40px 5%;
+    }
+
+    .parte6 {
+        flex-direction: column;
+        align-items: center;
+        padding: 60px 5%;
+    }
+
+    .parte6 .izquierda,
+    .parte6 .derecha {
+        width: 100%;
+    }
+
+    .parte7 p {
+        width: 100%;
+    }
+
+    .parte8 {
+        flex-direction: column;
+        padding: 60px 5%;
+        gap: 40px;
+    }
+
+    .contenidoformulario,
+    .contenidotexto {
+        width: 100%;
+        margin-top: 0;
+    }
+
+    footer .contenedorfoot {
+        flex-direction: column;
+        gap: 20px;
+    }
+}
+@media (max-width: 480px) {
+
+    header {
+        flex-direction: column;
+        padding: 15px 5%;
+        gap: 15px;
+    }
+
+    nav ul {
+        flex-wrap: wrap;
+        gap: 10px;
+        justify-content: center;
+    }
+
+    .parte1 {
+        padding-top: 80px;
+        text-align: center;
+        padding-right: 0;
+        gap: 10px;
+        height: auto;
+    }
+
+    .parte1 p {
+        font-size: 22px;
+    }
+
+    .parte2 > div {
+        width: 100%;
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .parte2 div > div {
+        width: 100%;
+    }
+
+    .parte3grid {
+        grid-template-columns: 1fr;
+        gap: 15px;
+    }
+
+    .parte4 {
+        flex-direction: column;
+        padding: 30px 5%;
+        gap: 20px;
+        text-align: center;
+    }
+
+    .parte5 {
+        padding: 30px 5%;
+    }
+
+    .parte5 p {
+        font-size: 14px;
+    }
+
+    .parte6 {
+        flex-direction: column;
+        padding: 50px 5%;
+        text-align: center;
+    }
+
+    .parte6 .izquierda,
+    .parte6 .derecha {
+        width: 100%;
+    }
+
+    .parte7 {
+        padding: 50px 5%;
+    }
+
+    .parte7 p {
+        width: 100%;
+        font-size: 16px;
+        line-height: 24px;
+    }
+
+    .parte8 {
+        flex-direction: column;
+        padding: 40px 5%;
+        gap: 30px;
+    }
+
+    .contenidoformulario input {
+        width: 100%;
+    }
+
+    .contenidoformulario textarea {
+        width: 100%;
+        height: 150px;
+    }
+
+    footer {
+        padding: 30px 5%;
+    }
+
+    footer .contenedorfoot {
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    .navfoot {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 10px;
+    }
+}
