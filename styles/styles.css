@@ -12,7 +12,7 @@ body{
 }
 .fondo{
     width: 100%;
-    background-image: url("/assets/images/images/Fondo.png");
+    background-image: url("../assets/images/images/bg_contact.png");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -287,7 +287,7 @@ nav ul li:hover {
 .parte6 {
     width: 100%;
     padding: 80px 10%;
-    background-image: url("/assets/images/images/bg_whoIs.png"); 
+    background-image: url("../assets/images/images/bg_whoIs.png"); 
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -408,7 +408,7 @@ nav ul li:hover {
  .parte8 {
     width: 100%;
     padding: 80px 10%;
-    background-image: url("/assets/images/images/bg_contact.png");
+    background-image: url("../assets/images/images/bg_contact.png");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
